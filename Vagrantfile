@@ -72,4 +72,5 @@ Vagrant.configure(2) do |config|
   config.vm.provision :shell, name: "apt-get", path: "install/apt-get.sh"
   config.vm.provision :shell, name: "git", path: "install/git.sh"
   config.vm.provision :shell, name: "erlang", path: "install/erlang.sh"
+  config.vm.provision :shell, name: "build", path: "install/build-essential.sh"
 end
