@@ -74,4 +74,5 @@ Vagrant.configure(2) do |config|
   config.vm.provision :shell, name: "erlang", path: "install/erlang.sh"
   config.vm.provision :shell, name: "build", path: "install/build-essential.sh"
   config.vm.provision :shell, name: "lfe", path: "install/lfe.sh"
+  config.vm.provision :shell, name: "rebar", path: "install/rebar.sh", privileged: false
 end
