@@ -1,5 +1,5 @@
-A Vagrant development environment for Lisp Flavored Erlang (LFE)
-projects. Based on the requirements listed in the "From Source"
+A Vagrant development environment for Lisp Flavored Erlang (LFE) and Elixir
+projects. The LFE setup is based on the requirements listed in the "From Source"
 section on the
 [Getting LFE](https://lfe.gitbooks.io/quick-start/content/1.html) page
 of the
