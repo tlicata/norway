@@ -6,3 +6,5 @@ of the
 [LFE Quick Start](https://lfe.gitbooks.io/quick-start/content/index.html).
 
 Set up while in Flam, Norway which is a very nice place indeed.
+
+![Flam](http://photos.licata.io/flam.jpg)
