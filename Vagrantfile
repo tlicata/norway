@@ -83,4 +83,5 @@ Vagrant.configure(2) do |config|
   config.vm.provision :shell, name: "rebar", path: "install/rebar.sh", privileged: false
   config.vm.provision :shell, name: "libpam0g", path: "install/libpam0g.sh"
   config.vm.provision :shell, name: "elixir", path: "install/elixir.sh"
+  config.vm.provision :shell, name: "inotify", path: "install/inotify.sh"
 end
